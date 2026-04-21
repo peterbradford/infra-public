@@ -1,0 +1,13 @@
+name: Onboarding new read-only users
+on:
+  push:
+    branches:
+      - 'main'
+
+permissions:
+  contents: read
+
+jobs:
+  changes:
+    runs-on: ubuntu
+    uses: peterbradford/infra/.github/onboarding.yml@main
