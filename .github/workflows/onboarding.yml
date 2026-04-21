@@ -9,4 +9,4 @@ on:
 
 jobs:
   changes:
-    uses: peterbradford/infra/.github/workflows/onboarding.yml
+    uses: peterbradford/infra/.github/workflows/onboarding.yml@3a23e01dc5ebb47fb070abd98b622888c3293bdc
