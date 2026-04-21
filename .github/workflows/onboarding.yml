@@ -4,10 +4,9 @@ on:
     branches:
       - 'main'
 
-permissions:
-  contents: read
+#permissions:
+#  contents: read
 
 jobs:
   changes:
-    runs-on: ubuntu
-    uses: peterbradford/infra/.github/onboarding.yml@main
+    uses: peterbradford/infra/.github/workflows/onboarding.yml@main
